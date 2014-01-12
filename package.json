@@ -1,0 +1,32 @@
+{
+  "name": "hubot-cashbrain",
+  "version": "0.0.1",
+
+  "author": "Jake Gaylor",
+
+  "keywords": [
+    "hubot",
+    "league-of-legends",
+    "bot"
+  ],
+
+  "description": "Modifies the base brain to add a second set of keys to the datastore that expire and refresh themselves",
+
+  "license": "MIT",
+
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/github/hubot.git"
+  },
+
+  "dependencies": {
+    "hubot":         ">= 2.6.0 < 3.0.0",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-xmpp": ">= 0.0.1 < 1.0.0"
+  },
+
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm":  ">= 1.1.x"
+  }
+}
