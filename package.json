@@ -1,6 +1,6 @@
 {
   "name": "hubot-cashbrain",
-  "version": "0.0.1",
+  "version": "0.0.61",
 
   "author": "Jake Gaylor",
 
@@ -16,13 +16,13 @@
 
   "repository" : {
     "type": "git",
-    "url": "https://github.com/github/hubot.git"
+    "url": "https://github.com/jhgaylor/hubot-cashbrain.git"
   },
+  "main": "CashBrain.coffee",
 
   "dependencies": {
-    "hubot":         ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-xmpp": ">= 0.0.1 < 1.0.0"
+    "fibers": ">= 1.0.0 < 2.0",
+    "log": "1.4.0"
   },
 
   "engines": {
